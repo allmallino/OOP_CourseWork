@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="app_icon.png" />
+    <None Remove="circle-icon.png" />
+    <None Remove="cursor-icon.png" />
+    <None Remove="eraser-icon.png" />
+    <None Remove="fill-icon.png" />
+    <None Remove="folder-icon.png" />
+    <None Remove="Icon.png" />
+    <None Remove="invisible-icon.png" />
+    <None Remove="line-icon.png" />
+    <None Remove="pen-icon.png" />
+    <None Remove="plus-icon.png" />
+    <None Remove="square_icon.png" />
+    <None Remove="text-icon.png" />
+    <None Remove="triangle-icon.png" />
+    <None Remove="visible-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="app_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\Downloads\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\folder-icon.png" />
+    <Resource Include="images\fill-icon.png" />
+    <Resource Include="images\circle-icon.png" />
+    <Resource Include="images\app_icon.png" />
+    <Resource Include="images\cursor-icon.png" />
+    <Resource Include="images\eraser-icon.png" />
+    <Resource Include="images\pen-icon.png" />
+    <Resource Include="images\square_icon.png" />
+    <Resource Include="images\triangle-icon.png" />
+    <Resource Include="images\line-icon.png" />
+    <Resource Include="images\text-icon.png" />
+    <Resource Include="images\invisible-icon.png" />
+    <Resource Include="images\visible-icon.png" />
+    <Resource Include="images\plus-icon.png" />
+  </ItemGroup>
+
+</Project>

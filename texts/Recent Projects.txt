@@ -1,0 +1,1 @@
+Test|D:\Vids\Test.txt|||Test|C:\Users\user\Desktop\Проєкти\Test.txt|||House|C:\Users\user\Desktop\Проєкти\House.txt|||Назва|C:\Users\user\Desktop\Проєкти\Назва.txt|||
